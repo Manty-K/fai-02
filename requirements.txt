@@ -1,1 +1,5 @@
-hello
+colorama==0.4.6
+kanren==0.2.3
+multipledispatch==1.0.0
+toolz==0.12.0
+unification==0.2.2

@@ -42,12 +42,12 @@ dummyWindows2 =  [
 class MyProgram:
     
     def __init__(self) -> None:
-        # self.windows  = []
-        # self.minimizedWindows = []
-        # self.activeWindow = False
-        self.displayedWindows  = dummyWindows1
-        self.minimizedWindows = dummyWindows2
-        self.activeWindow = True
+        self.displayedWindows  = []
+        self.minimizedWindows = []
+        self.activeWindow = False
+        # self.displayedWindows  = dummyWindows1
+        # self.minimizedWindows = dummyWindows2
+        # self.activeWindow = True
  
 
     def checkExististence(self,name):
